@@ -1,0 +1,140 @@
+body, input, button, select, h1, p, ul, li {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ebf4fc;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+}
+
+.card {
+  background-color: #daedf5;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 90vh;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+h1 {
+  text-align: center;
+  background-color: #add8e6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+input[type="text"], select {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 130px;
+  padding: 10px;
+}
+
+select {
+  margin-right: 10px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4097f3;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  padding: 10px 16px;
+  display: flex;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  background: #f9f9f9;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 15px;
+  transition: background-color .3s;
+  display: flex;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+li span {
+  flex: 1;
+}
+
+li input[type="checkbox"] {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+li button {
+  color: red;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 18px;
+  display: flex;
+}
+
+li button:hover {
+  background-color: #fcc;
+}
+
+.form-group {
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-group > * {
+  margin-right: 10px;
+}
+
+.form-group > button {
+  margin-left: 10px;
+}
+
+hr {
+  background-color: #ddd;
+  border: none;
+  height: 1px;
+  margin: 20px 0;
+}
+/*# sourceMappingURL=tasklist-1.e6b5c606.css.map */
